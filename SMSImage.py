@@ -120,7 +120,7 @@ chars = {
 	'n': [228, 228, 228]
 }
 
-gsm = chars.keys()
+gsm = list(chars.keys())
 
 
 def getNearestColour(r, g, b):
